@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose = "5" parallel = "classes">
+
+<!-- 	<listeners>
+		<listener class-name="lib.selenium.TestNGListener"></listener>
+	</listeners>
+ -->
+	<parameter name="url" value="http://leaftaps.com/opentaps"></parameter>
+	<parameter name="uname" value="DemoSalesManager"></parameter>
+	<parameter name="pwd" value="crmsfa"></parameter>
+
+	<test name="allTest">
+		<classes>
+			<class name="POM.tests.Create_Lead" />
+			<class name="POM.tests.Create_Lead2" />
+			<!-- <class name="tests.Edit_Lead" />
+			<class name="tests.Duplicate_Lead" />
+			<class name="tests.Merge_Leads" />
+			<class name="tests.Delete_Lead" /> -->
+		</classes>
+	</test> <!-- allTest -->
+</suite> <!-- Suite -->

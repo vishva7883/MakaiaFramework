@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Suite]" parallel="classes">
+  <parameter name="uname" value="DemoSalesManager"/>
+  <parameter name="pwd" value="crmsfa"/>
+  <parameter name="url" value="http://leaftaps.com/opentaps"/>
+  <test thread-count="5" verbose="5" name="allTest(failed)" parallel="classes">
+    <classes>
+      <class name="POM.tests.Create_Lead">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="setValue"/>
+          <include name="beforeTest"/>
+          <include name="afterSuit"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="createLead" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- POM.tests.Create_Lead -->
+      <class name="POM.tests.Create_Lead2">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="setValue"/>
+          <include name="beforeTest"/>
+          <include name="afterSuit"/>
+          <include name="afterMethod"/>
+          <include name="createLead"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- POM.tests.Create_Lead2 -->
+    </classes>
+  </test> <!-- allTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="1" ignored="4" total="8" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="69651" started-at="2018-07-01T08:14:37Z" finished-at="2018-07-01T08:15:46Z">
+    <groups>
+    </groups>
+    <test name="allTest" duration-ms="69651" started-at="2018-07-01T08:14:37Z" finished-at="2018-07-01T08:15:46Z">
+      <class name="POM.tests.Create_Lead2">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:POM.tests.Create_Lead2@1567f1]" name="beforeClass" is-config="true" duration-ms="2" started-at="2018-07-01T08:14:37Z" finished-at="2018-07-01T08:14:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:POM.tests.Create_Lead2@1567f1]" name="beforeMethod" is-config="true" duration-ms="26511" started-at="2018-07-01T08:14:37Z" finished-at="2018-07-01T08:15:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:POM.tests.Create_Lead2@1567f1]" name="createLead" duration-ms="22390" started-at="2018-07-01T08:15:04Z" data-provider="ST" finished-at="2018-07-01T08:15:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CTS_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Fname_1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Lname_1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:POM.tests.Create_Lead2@1567f1]" name="afterMethod" is-config="true" duration-ms="478" started-at="2018-07-01T08:15:26Z" finished-at="2018-07-01T08:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:POM.tests.Create_Lead2@1567f1]" name="beforeMethod" is-config="true" duration-ms="9243" started-at="2018-07-01T08:15:27Z" finished-at="2018-07-01T08:15:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException
+at reports.Reports.reportSteps(Reports.java:66)
+at lib.listeners.WebDriverListener.takeSnap(WebDriverListener.java:170)
+at lib.listeners.WebDriverListener.afterNavigateTo(WebDriverListener.java:72)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:82)
+at com.sun.proxy.$Proxy15.afterNavigateTo(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:162)
+at lib.selenium.PreAndPost.beforeMethod(PreAndPost.java:55)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="createLead(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:POM.tests.Create_Lead2@1567f1]" name="createLead" duration-ms="0" started-at="2018-07-01T08:15:36Z" data-provider="ST" finished-at="2018-07-01T08:15:36Z">
+          <exception class="java.lang.RuntimeException">
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException
+at reports.Reports.reportSteps(Reports.java:66)
+at lib.listeners.WebDriverListener.takeSnap(WebDriverListener.java:170)
+at lib.listeners.WebDriverListener.afterNavigateTo(WebDriverListener.java:72)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:82)
+at com.sun.proxy.$Proxy15.afterNavigateTo(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:162)
+at lib.selenium.PreAndPost.beforeMethod(PreAndPost.java:55)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:POM.tests.Create_Lead2@1567f1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-07-01T08:15:36Z" finished-at="2018-07-01T08:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:POM.tests.Create_Lead2@1567f1]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-07-01T08:15:36Z" finished-at="2018-07-01T08:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- POM.tests.Create_Lead2 -->
+      <class name="POM.tests.Create_Lead">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:POM.tests.Create_Lead@1494225]" name="beforeSuite" is-config="true" duration-ms="471" started-at="2018-07-01T08:14:36Z" finished-at="2018-07-01T08:14:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:POM.tests.Create_Lead@1494225]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-07-01T08:14:37Z" finished-at="2018-07-01T08:14:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setValue()[pri:0, instance:POM.tests.Create_Lead2@1567f1]" name="setValue" is-config="true" duration-ms="0" started-at="2018-07-01T08:14:37Z" depends-on-methods="lib.selenium.PreAndPost.beforeTest" finished-at="2018-07-01T08:14:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="setValue()[pri:0, instance:POM.tests.Create_Lead@1494225]" name="setValue" is-config="true" duration-ms="0" started-at="2018-07-01T08:14:37Z" depends-on-methods="POM.tests.Create_Lead2.setValue, lib.selenium.PreAndPost.beforeTest" finished-at="2018-07-01T08:14:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:POM.tests.Create_Lead@1494225]" name="beforeClass" is-config="true" duration-ms="2" started-at="2018-07-01T08:14:37Z" finished-at="2018-07-01T08:14:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:POM.tests.Create_Lead@1494225]" name="beforeMethod" is-config="true" duration-ms="27414" started-at="2018-07-01T08:14:37Z" finished-at="2018-07-01T08:15:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="createLead(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:POM.tests.Create_Lead@1494225]" name="createLead" duration-ms="21409" started-at="2018-07-01T08:15:05Z" data-provider="ST" finished-at="2018-07-01T08:15:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CTS_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Fname_1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Lname_1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException
+at reports.Reports.reportSteps(Reports.java:66)
+at lib.listeners.WebDriverListener.takeSnap(WebDriverListener.java:170)
+at reports.Reports.reportSteps(Reports.java:54)
+at lib.selenium.WebDriverServiceImpl.getText(WebDriverServiceImpl.java:105)
+at lib.selenium.WebDriverServiceImpl.verifyPartialText(WebDriverServiceImpl.java:242)
+at Page.ViewLead_Page.verifyCompanyName(ViewLead_Page.java:26)
+at POM.tests.Create_Lead.createLead(Create_Lead.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:POM.tests.Create_Lead@1494225]" name="afterMethod" is-config="true" duration-ms="384" started-at="2018-07-01T08:15:26Z" finished-at="2018-07-01T08:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:POM.tests.Create_Lead@1494225]" name="beforeMethod" is-config="true" duration-ms="19738" started-at="2018-07-01T08:15:27Z" finished-at="2018-07-01T08:15:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="createLead(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:POM.tests.Create_Lead@1494225]" name="createLead" duration-ms="0" started-at="2018-07-01T08:15:46Z" data-provider="ST" finished-at="2018-07-01T08:15:46Z">
+          <exception class="java.lang.RuntimeException">
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException
+at reports.Reports.reportSteps(Reports.java:66)
+at lib.listeners.WebDriverListener.takeSnap(WebDriverListener.java:170)
+at lib.listeners.WebDriverListener.afterNavigateTo(WebDriverListener.java:72)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:82)
+at com.sun.proxy.$Proxy15.afterNavigateTo(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:162)
+at lib.selenium.PreAndPost.beforeMethod(PreAndPost.java:55)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:POM.tests.Create_Lead@1494225]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-07-01T08:15:46Z" finished-at="2018-07-01T08:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:POM.tests.Create_Lead@1494225]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-07-01T08:15:46Z" finished-at="2018-07-01T08:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:POM.tests.Create_Lead@1494225]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-07-01T08:15:46Z" finished-at="2018-07-01T08:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="afterSuit()[pri:0, instance:POM.tests.Create_Lead@1494225]" name="afterSuit" is-config="true" duration-ms="0" started-at="2018-07-01T08:15:46Z" finished-at="2018-07-01T08:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- POM.tests.Create_Lead -->
+    </test> <!-- allTest -->
+  </suite> <!-- Suite -->
+</testng-results>
